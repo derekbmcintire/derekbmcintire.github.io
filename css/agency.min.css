@@ -56,7 +56,7 @@ section h3.section-subheading {
 }
 
 .portfolio {
-  background-color: #F5F3EE;
+  background-color: #7D1935;
 }
 
 .btn {
@@ -614,9 +614,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url(../img/map-image.png);
+  background-image: url('https://c1.staticflickr.com/5/4636/38375374345_7f5be56b2e_o.jpg');
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  background-size: cover;
 }
 
 section#contact .section-heading {
