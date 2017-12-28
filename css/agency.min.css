@@ -56,7 +56,7 @@ section h3.section-subheading {
 }
 
 .portfolio {
-  background-color: #4A96AD;
+  background-color: #F0F0F0;
 }
 
 .btn {
@@ -256,7 +256,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
   opacity: 0;
-  background: rgba(254, 200, 16, .9)
+  background: rgba(125, 25, 53, .9)
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
