@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  padding: 100px 0
+  padding: 35px 0;
 }
 
 section h2.section-heading {
@@ -75,8 +75,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810!important;
-  border-color: #fec810!important;
+  background-color: #7D1935!important;
+  border-color: #7D1935!important;
   color: #fff
 }
 
@@ -230,6 +230,10 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.email-top {
+  display: inline;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none
@@ -316,13 +320,20 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.featured-project {
+  margin: 15px auto;
+  margin-top: -20px;
+  min-width: 500px;
+  width: 80vw;
+}
+
 .portfolio-modal {
   padding-right: 0!important
 }
 
 .portfolio-modal .modal-dialog {
   margin: 1rem auto;
-  max-width: 75vw
+  max-width: 75vw;
 }
 
 .portfolio-modal .modal-content {
@@ -616,8 +627,9 @@ section#contact {
   background-color: #212529;
   background-image: url('https://c1.staticflickr.com/5/4636/38375374345_7f5be56b2e_o.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  padding: 50px;
 }
 
 section#contact .section-heading {
