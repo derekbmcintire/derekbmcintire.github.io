@@ -57,6 +57,15 @@ section h3.section-subheading {
 
 .portfolio {
   background-color: #F0F0F0;
+  padding: 75px;
+}
+
+.project-links {
+  background-color: white;
+  border: 1px solid black;
+  border-top: 0;
+  font-size: 1.25em;
+  padding: 20px;
 }
 
 .btn {
@@ -124,7 +133,7 @@ body {
 #mainNav .navbar-brand {
   color: #4A96AD;
   font-family: Helvetica;
-  font-size: 1.25em;
+  font-size: 15px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -137,7 +146,8 @@ body {
   padding: .75em 0;
   letter-spacing: 1px;
   color: #fff;
-  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: right;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -155,7 +165,7 @@ body {
     background-color: transparent
   }
   #mainNav .navbar-brand {
-    font-size: 1em;
+    font-size: 15px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s
@@ -169,8 +179,8 @@ body {
     background-color: #010225;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1em;
-    padding: 12px 0
+    font-size: 12px;
+    padding: 0
   }
 }
 
@@ -235,24 +245,27 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading {
+  color: #7d1935;
   margin: 15px 0;
   text-transform: none
 }
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px
+  margin: 0 0 15px;
+  max-width: 300px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
+  border: 1px solid black;
   position: relative;
   display: block;
-  max-width: 400px;
   margin: 0 auto;
   cursor: pointer
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -267,8 +280,31 @@ header.masthead .intro-text .intro-heading {
   opacity: 1
 }
 
-.portfolio-descrip {
+.descrip {
   padding: 5px;
+  color: #4A96AD;
+}
+
+.descrip:hover {
+  color: black;
+}
+
+.portfolio-descrip {
+  font-size: 16px;
+  padding: 10px;
+  text-align: left;
+}
+
+.wiki-descrip {
+  margin-top: -40px;
+}
+
+.todo-descrip {
+  margin-top: -40px;
+}
+
+.spoke-descrip {
+  font-style: normal;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -291,6 +327,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
+  border: 1px solid black;
+  border-top: 0;
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -305,7 +343,6 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
-  font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
@@ -318,91 +355,6 @@ header.masthead .intro-text .intro-heading {
   #portfolio .portfolio-item {
     margin: 0 0 30px
   }
-}
-
-.featured-project {
-  margin: 15px auto;
-  margin-top: -20px;
-  min-width: 500px;
-  width: 80vw;
-}
-
-.portfolio-modal {
-  padding-right: 0!important
-}
-
-.portfolio-modal .modal-dialog {
-  margin: 1rem auto;
-  max-width: 75vw;
-}
-
-.portfolio-modal .modal-content {
-  padding: 40px 0;
-  text-align: center
-}
-
-.portfolio-modal .modal-content h2 {
-  font-size: 3em;
-  margin-bottom: 15px
-}
-
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
-  font-style: italic;
-  margin: 20px 0 30px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-  margin-top: 0;
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px
-}
-
-.portfolio-modal .modal-content button {
-  cursor: pointer
-}
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  background-color: transparent
-}
-
-.portfolio-modal .close-modal:hover {
-  opacity: .3
-}
-
-.portfolio-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 75px;
-  margin-left: 35px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  background-color: #212529
-}
-
-.portfolio-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 75px;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  background-color: #212529
 }
 
 .tech-data {
@@ -421,6 +373,14 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   padding: 0;
   list-style: none
+}
+
+#services {
+  padding: 75px;
+}
+
+#about {
+  padding: 75px;
 }
 
 .timeline:before {

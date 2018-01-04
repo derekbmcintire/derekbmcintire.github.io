@@ -30,14 +30,19 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#"><small>derekbmcintire@gmail.com</small><a>
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><small>GitHub</small></a>
+        <div>
+        <a class="navbar-brand" href="">gmail</a>
+        <span class="navbar-brand"> | </span>
+        <a class="navbar-brand" href="">GitHub</a>
+        <span class="navbar-brand"> | </span>
+        <a class="navbar-brand" href="">Linkedin</a>
+        </div>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
+          <ul class="navbar-nav text-uppercase ml-auto nav-ul">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Technologies</a>
             </li>
@@ -81,16 +86,21 @@
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-stack-1x fa-inverse"><img class="tech-lang" src="https://cdn3.iconfinder.com/data/icons/online-marketing-vol-1/72/24-512.png"></i>
             </span>
-            <h4 class="service-heading">Languages and Frameworks</h4>
-            <p class="text-muted">JavaScript (ES6), ReactJS, Ruby, Ruby on Rails, NodeJS, ExpressJS, jQuery, EmberJS</p>
+            <h4 class="service-heading">Languages/Frameworks</h4>
+            <h5 class="">JavaScript(ES6) | ReactJS</h5>
+            <h5>jQuery | EmberJS</h5>
+            <h5>Ruby | Rails</h5>
+            <h5>NodeJS | ExpressJS</h5>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-stack-1x fa-inverse"><img class="tech-response" src="http://simpleicon.com/wp-content/uploads/responsive-design.png"></i>
             </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">HTML, CSS/SASS, Bootstrap, Handlebars</p>
+            <h4 class="service-heading">Markup and Style</h4>
+            <h5>HTML5 | CSS3</h5>
+            <h5>Bootstrap | SASS</h5>
+            <h5>Handlebars</h5>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -98,7 +108,9 @@
               <i class="fa fa-stack-1x fa-inverse"><img class="tech-data" src="https://cdn1.iconfinder.com/data/icons/business-programming/512/database_3-512.png"></i>
             </span>
             <h4 class="service-heading">Data and Web Technologies</h4>
-            <p class="text-muted">MongoDB, AJAX, postgreSQL, Git/Github</p>
+            <h5>PostgreSQL | SQL</h5>
+            <h5>MongoDB | Mongoose</h5>
+            <h5>AJAX | Git</h5>
           </div>
         </div>
       </div>
@@ -113,79 +125,134 @@
             <h3 class="section-subheading text-muted">Projects I've built.</h3>
           </div>
         </div>
-        <!-- <div class="row featured-project">
-          <div class="modal-body"> -->
-            <!-- Project Details Go Here -->
-          <!--  <h4 class="text-uppercase text-center">WikiSearch</h4>
-            <p class="item-intro text-muted text-center">Search your little heart out.</p>
-            <img class="img-fluid d-block mx-auto" src="https://c1.staticflickr.com/5/4593/39225204091_6a8408b2de_o.png" alt="">
-            <p>This is a Wikipedia search app, using the wikipedia API to display the top ten results of any search. It can do a whole bunch of things if you search for those things then you can also click on those things. There is a random article button you can push. If you push that button maybe you'll see an article about cats. I dunno though, I guess you would have to get pretty lucky for that to happen.</p>
-            <a href="#">view project</a>
-            <ul class="list-inline">
-              <li>Date: February 2017</li>
-            </ul>
-            <button class="btn btn-primary" id="close-project" type="button">
-              Close Project</button>
-          </div>
-          </div> -->
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-1x portfolio-descrip">A wikipedia search app using JavaScript and jQuery</i>
+
+          <!-- -->
+          <div class="row todo-hover">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <div class="fa fa-1x portfolio-descrip todo-descrip">
+                      <h4>To-Do-List</h4>
+                    </div>
+                  </div>
+                </div>
+                <img class="img-fluid" src="https://c1.staticflickr.com/5/4739/25610790498_5e4e6f4731_o.png" alt="">
+              </a>
+              <div class="text-center project-links">
+                <a href="https://derekbmcintire.github.io/todo-front/" target="_blank">view</a>
+                <span> | </span>
+                  <a href="https://derekbmcintire.github.io/todo-front/" target="_blank">github</a>
                 </div>
               </div>
-              <img class="img-fluid" src="https://c1.staticflickr.com/5/4593/39225204091_6a8408b2de_o.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>WikiSearch</h4>
-              <p class="text-muted"><a href="" target="_blank">view project</</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-1x portfolio-descrip">A calculator built with pure JavaScript.</i>
+              <div class="col-md-8 col-sm-6">
+              <div class="portfolio-caption">
+                <div id="todo-descrip" class="descrip">
+                <h3>To-Do-List</h3>
+                <h5><i>A To-Do-List app built with React</i></h5>
+                <br />
+                <p class="todo-hover">This simple to-do-list app lets a user log in and create multiple lists with full CRUD functionality. I built this app in my free time while teaching myself React.js and Flux and chose to use a Node/Express API with a Mongo database to store data.</p>
                 </div>
               </div>
-              <img class="img-fluid" src="https://c1.staticflickr.com/5/4594/25359162228_d5a1b7e94c_o.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Calculator</h4>
-              <p class="text-muted"><a href="" target="_blank">view project</</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-1x portfolio-descrip">A web app to help you find your lost bicycle.</i>
+
+          <!-- -->
+          <div class="row spoke-hover">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <div class="fa fa-1x portfolio-descrip spoke-descrip">
+                      <h4>SpokeRetriever</h4>
+                    </div>
+                  </div>
+                </div>
+                <img class="img-fluid" src="https://c1.staticflickr.com/5/4684/24363354587_91bbb20f69_o.png" alt="">
+              </a>
+              <div class="text-center project-links">
+                <a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">view</a>
+                <span> | </span>
+                <a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">github</a>
                 </div>
               </div>
-              <img class="img-fluid" src="https://c1.staticflickr.com/5/4684/24363354587_91bbb20f69_o.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>SpokeRetriever</h4>
-              <p class="text-muted"><a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">view project</a></p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-1x portfolio-descrip">A classic game for two players, or one against the computer.</i>
+              <div class="col-md-8 col-sm-6">
+              <div class="portfolio-caption">
+                <div id="spoke-descrip" class="descrip">
+                <h3>SpokeRetriever</h3>
+                <h5><i>An app to help people find their lost bicycles</i></h5>
+                <br />
+                <p class="spoke-hover">SpokeRetriever is a bicycle registration site to help users keep track of their bicycles. Users have the option to create, edit, remove, and view their bikes. Bikes can also be registered, marked stolen or recovered, and non-registered users can view all bicycles and see their status. The front end was built with JavaScript/jQuery, Bootstrap and SASS, and the RESTful API it relies on with Ruby on Rails and a PostgreSQL database.</p>
                 </div>
               </div>
-              <img class="img-fluid" src="https://c1.staticflickr.com/5/4732/39196898632_494bcb152e_o.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Tic Tac Toe</h4>
-              <p class="text-muted"><a href="" target="_blank">view project</</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <!-- -->
+          <div class="row ttt-hover">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <div class="fa fa-1x portfolio-descrip ttt-descrip">
+                      <h4>Tic Tac Toe</h4>
+                    </div>
+                  </div>
+                </div>
+                <img class="img-fluid" src="https://c1.staticflickr.com/5/4732/39196898632_494bcb152e_o.png" alt="">
+              </a>
+              <div class="text-center project-links">
+                <a href="https://derekbmcintire.github.io/tic-tac-toe-wdi-project/" target="_blank">view</a>
+                <span> | </span>
+                  <a href="https://github.com/derekbmcintire/tic-tac-toe-wdi-project" target="_blank">github</a>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-6">
+              <div class="portfolio-caption">
+                <div id="ttt-descrip" class="descrip">
+                <h3>Tic Tac Toe</h3>
+                <h5><i>A classic game for two players or one</i></h5>
+                <br />
+                <p class="ttt-hover" id="ttt-descrip">Challenge a friend, or play against the computer in this classic game of Tic Tac Toe. I used HTML5, CSS and jQuery to build the user interface and JavaScript to create the Game Logic, while connecting to a pre-existing API for user auth and game stats.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- -->
+          <div class="row wiki-hover">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <div class="fa fa-1x portfolio-descrip wiki-descrip">
+                      <h4>Wikisearch</h4>
+                    </div>
+                  </div>
+                </div>
+                <img class="img-fluid" src="https://c1.staticflickr.com/5/4593/39225204091_6a8408b2de_o.png" alt="">
+              </a>
+              <div class="text-center project-links">
+                <a href="https://codepen.io/derekbmcintire/pen/BdXoMg" target="_blank">view</a>
+                <span> | </span>
+                  <a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">github</a>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-6">
+              <div class="portfolio-caption">
+                <div id="wiki-descrip" class="descrip">
+                <h3>Wikisearch</h3>
+                <h5><i>A Wikipedia search app</i></h5>
+                <br />
+                <p class="wiki-hover">This is a Wikipedia search app I built while taking Free Code Camp's Front End Development program. I used jQuery and JavaScript to connect with the Opensearch API so users can search for anything on Wikipedia, or be directed to a random article.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- -->
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -196,24 +263,28 @@
             </a>
             <div class="portfolio-caption">
               <h4>Simon</h4>
-              <p class="text-muted"><a href="" target="_blank">view project</</p>
+            <a href="https://codepen.io/derekbmcintire/pen/oGGvVE" target="_blank">view</a>
+            <span> | </span>
+              <a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">github</a>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          </div> -->
+          <!-- -->
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-1x portfolio-descrip">Work efficiently with this Pomodor Timer designed to keep you productive.</i>
+                  <i class="fa fa-1x portfolio-descrip">An E-Commerce site for hats.</i>
                 </div>
               </div>
               <img class="img-fluid" src="https://c1.staticflickr.com/5/4736/38349895815_e9460c863f_o.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Pomodoro Timer</h4>
-              <p class="text-muted"><a href="" target="_blank">view project</a></p>
+              <h4>Nozama</h4>
+            <a href="https://tbdwdi.github.io/Nozama-Front-End/" target="_blank">view</a>
+            <span> | </span>
+              <a href="https://derekbmcintire.github.io/bike-registry-front-end/" target="_blank">github</a>
             </div>
-          </div>
-        </div>
+          </div>-->
       </div>
     </section>
 
@@ -279,7 +350,8 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container">
+      <h3>Contact Me!</h3>
+      <!-- <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Me</h2>
@@ -319,7 +391,7 @@
             </form>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- Footer -->
@@ -362,211 +434,6 @@
       </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">WikiSearch</h2>
-                  <p class="item-intro text-muted">Search your little heart out.</p>
-                  <img class="img-fluid d-block mx-auto" src="https://c1.staticflickr.com/5/4593/39225204091_6a8408b2de_o.png" alt="">
-                  <p>This is a Wikipedia search app, using the wikipedia API to display the top ten results of any search. It can do a whole bunch of things if you search for those things then you can also click on those things. There is a random article button you can push. If you push that button maybe you'll see an article about cats. I dunno though, I guess you would have to get pretty lucky for that to happen.</p>
-                  <a href="#">view project</a>
-                  <ul class="list-inline">
-                    <li>Date: February 2017</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -579,7 +446,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
 
   </body>
 

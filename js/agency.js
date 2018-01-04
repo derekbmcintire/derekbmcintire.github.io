@@ -1,6 +1,45 @@
 (function($) {
   "use strict"; // Start of use strict
 
+
+
+  // $('#spoke-descrip').hide()
+  // $('#wiki-descrip').hide()
+  // $('#todo-descrip').hide()
+  // $('#ttt-descrip').hide()
+  //
+  // $('.spoke-hover').on('mouseover', () => {
+  //   $('#spoke-descrip').show()
+  // })
+  //
+  // $('.spoke-hover').on('mouseout', () => {
+  //   $('#spoke-descrip').hide()
+  // })
+  //
+  // $('.wiki-hover').on('mouseover', () => {
+  //   $('#wiki-descrip').show()
+  // })
+  //
+  // $('.wiki-hover').on('mouseout', () => {
+  //   $('#wiki-descrip').hide()
+  // })
+  //
+  // $('.todo-hover').on('mouseover', () => {
+  //   $('#todo-descrip').show()
+  // })
+  //
+  // $('.todo-hover').on('mouseout', () => {
+  //   $('#todo-descrip').hide()
+  // })
+  //
+  // $('.ttt-hover').on('mouseover', () => {
+  //   $('#ttt-descrip').show()
+  // })
+  //
+  // $('.ttt-hover').on('mouseout', () => {
+  //   $('#ttt-descrip').hide()
+  // })
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
