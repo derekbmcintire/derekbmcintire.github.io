@@ -323,11 +323,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 .descrip {
-  padding: 5px;
+  padding: 15px;
   color: #4A96AD;
 }
 
 .descrip:hover {
+  border-top: 2px solid black;
   color: black;
 }
 
