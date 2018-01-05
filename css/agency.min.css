@@ -186,6 +186,7 @@ body {
 
 .head-email {
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .contact-info {
@@ -208,16 +209,17 @@ header.masthead {
   background-image: url('https://c1.staticflickr.com/9/8380/29643303955_6915e52f99_o.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 1000px;
 }
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px
+  padding-bottom: 150px
 }
 
 header.masthead .intro-text .intro-lead-in {
