@@ -189,11 +189,25 @@ body {
   margin-bottom: 20px;
 }
 
+.linkedin-icon {
+  width: 25px;
+  filter: invert(100%);
+}
+
+.github-icon {
+  width: 23px;
+  filter: invert(100%);
+}
+
 .home-icon {
   filter: invert(100%);
   margin-right: 15px;
   margin-top: -5px;
-  width: 17px;
+  width: 20px;
+}
+
+.mail-icon {
+  width: 25px;
 }
 
 .contact-info {
