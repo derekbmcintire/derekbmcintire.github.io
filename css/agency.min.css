@@ -189,6 +189,13 @@ body {
   margin-bottom: 20px;
 }
 
+.home-icon {
+  filter: invert(100%);
+  margin-right: 15px;
+  margin-top: -5px;
+  width: 17px;
+}
+
 .contact-info {
   background-color: white;
   border: 1px solid black;
