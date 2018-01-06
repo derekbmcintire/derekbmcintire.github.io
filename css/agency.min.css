@@ -56,7 +56,7 @@ section h3.section-subheading {
 }
 
 .portfolio {
-  background-color: white;
+  background-color: #F0F0F0;
   padding: 75px;
 }
 
@@ -427,16 +427,24 @@ header.masthead .intro-text .intro-heading {
 }
 
 #services {
-  background-color: #F0F0F0;
+  background-color: #FFF;
   padding: 75px;
 }
 
 #about {
+  background-color: #F0F0F0;
   padding: 75px;
 }
 
+.about-container {
+  border-top: 3px solid #7d1935;
+  padding: 25px;
+}
 .about-descrip {
   font-size: 18px;
+  font-weight: 500;
+  padding-left: 15px;
+  width: 100%;
 }
 
 .timeline:before {
@@ -626,7 +634,8 @@ header.masthead .intro-text .intro-heading {
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid #fff
+  border: 7px solid #F0F0F0;
+  margin-bottom: 25px;
 }
 
 .team-member h4 {
