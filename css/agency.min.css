@@ -436,15 +436,25 @@ header.masthead .intro-text .intro-heading {
   padding: 75px;
 }
 
-.about-container {
+.about-separator {
   border-top: 3px solid #7d1935;
-  padding: 25px;
+  margin-bottom: 20px;
 }
 .about-descrip {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   padding-left: 15px;
   width: 100%;
+}
+
+.about-intro {
+  width: 85%;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: .75px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .timeline:before {
