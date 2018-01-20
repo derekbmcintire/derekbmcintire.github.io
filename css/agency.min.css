@@ -330,6 +330,11 @@ header.masthead .intro-text .intro-heading {
   opacity: 1
 }
 
+.bike-layers {
+  margin-bottom: 6px;
+  display: block;
+  margin: 0 auto;
+}
 .card {
   background-color: white;
   border: none;
@@ -372,7 +377,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .descrip {
-  color: #4A96AD;
+  /* color: #4A96AD; */
 }
 
 .drop-right {
@@ -386,21 +391,12 @@ header.masthead .intro-text .intro-heading {
   margin-top: 15px;
 }
 
-.carousel-control-prev {
-  background-color: black;
-  color: red;
-}
-
-/* .descrip:hover {
-  border-top: 2px solid black;
-  color: black;
-} */
-
 .portfolio-descrip {
   font-size: 16px;
   padding: 10px;
   text-align: left;
 }
+
 
 .wiki-descrip {
   margin-top: -40px;
