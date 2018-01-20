@@ -330,15 +330,70 @@ header.masthead .intro-text .intro-heading {
   opacity: 1
 }
 
+.card {
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.clps {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.clps-btn {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+  padding: 0, 20px, 0, 20px;
+}
+
+.clps-btn:hover {
+  cursor: pointer;
+}
+
+.proj-title {
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+.proj-accordion {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
 .descrip {
-  padding: 15px;
   color: #4A96AD;
 }
 
-.descrip:hover {
+.drop-right {
+  z-index: 99;
+}
+
+.proj-dscrip {
+  border: 1px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  color: red;
+}
+
+/* .descrip:hover {
   border-top: 2px solid black;
   color: black;
-}
+} */
 
 .portfolio-descrip {
   font-size: 16px;
