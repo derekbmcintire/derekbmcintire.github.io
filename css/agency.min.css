@@ -447,6 +447,11 @@ header.masthead .intro-text .intro-heading {
   width: 100%;
 }
 
+.video {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .about-intro {
   width: 85%;
   font-size: 22px;
