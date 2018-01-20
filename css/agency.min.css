@@ -350,13 +350,14 @@ header.masthead .intro-text .intro-heading {
 
 .clps-btn {
   background: transparent;
-  border: none;
   border-radius: 0;
   text-align: left;
   padding: 0, 20px, 0, 20px;
 }
 
 .clps-btn:hover {
+  background-color: #4A96AD;
+  color: white;
   cursor: pointer;
 }
 
