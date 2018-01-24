@@ -116,7 +116,7 @@ body {
 }
 
 #mainNav {
-  background-color: #010225
+  background-color: #010225;
 }
 
 #mainNav .navbar-toggler {
@@ -336,6 +336,17 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
 }
 
+.btn-resume {
+  outline: 3px solid #010225;
+  padding: 10px;
+}
+
+.btn-resume:hover {
+  background-color: #010225;
+  outline: none;
+  color: white;
+}
+
 .card {
   background-color: white;
   border: none;
@@ -370,6 +381,10 @@ header.masthead .intro-text .intro-heading {
   color: rgb(125, 25, 53);
   cursor: pointer;
   font-style: none;
+}
+
+.dl-resume {
+  margin: 15px;
 }
 
 .proj-title {
