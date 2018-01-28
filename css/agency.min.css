@@ -337,13 +337,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 .btn-resume {
-  outline: 3px solid #010225;
+  border: 2px solid #010225;
   padding: 10px;
 }
 
 .btn-resume:hover {
   background-color: #010225;
-  outline: none;
   color: white;
 }
 
@@ -384,7 +383,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .dl-resume {
-  margin: 15px;
+  margin: 60px auto;
+  text-align: center;
 }
 
 .proj-header {
